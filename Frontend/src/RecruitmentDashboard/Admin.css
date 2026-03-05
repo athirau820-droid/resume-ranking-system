@@ -1,0 +1,144 @@
+.admin-container {
+  font-family: "Arial", sans-serif;
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.admin-heading {
+  text-align: center;
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.btn-toggle-form, .btn-add-job, .btn-view-candidates {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn-toggle-form {
+  background: linear-gradient(135deg,#667eea,#764ba2);
+}
+
+.btn-toggle-form:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.btn-add-job {
+  background: linear-gradient(135deg,#28a745,#218838);
+}
+
+.btn-add-job:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.btn-view-candidates {
+  background: linear-gradient(135deg,#17a2b8,#117a8b);
+}
+
+.btn-view-candidates:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.job-section {
+  margin: 20px 0;
+  padding: 15px;
+  background: #f7f7f7;
+  border-radius: 8px;
+}
+
+.input-field, .textarea-field {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.textarea-field {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  background: #fff;
+}
+
+.card-title {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.candidate-section {
+  margin-top: 20px;
+}
+
+.candidate-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  background: #fafafa;
+}
+
+.scrollable {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* ATS Score Highlight */
+.ats-score.high {
+  color: green;
+  font-weight: bold;
+}
+
+.ats-score.medium {
+  color: orange;
+  font-weight: bold;
+}
+
+.ats-score.low {
+  color: red;
+  font-weight: bold;
+}
+/* Add Job Button */
+.btn-toggle-admin {
+  padding: 12px 25px;
+  background-color: green; /* Distinct red/pink */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-bottom: 20px;
+}
+
+/* Hover effect */
+.btn-toggle-admin:hover {
+  background-color: #ff5252; /* Slightly darker */
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Active click effect */
+.btn-toggle-admin:active {
+  transform: scale(0.97);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
