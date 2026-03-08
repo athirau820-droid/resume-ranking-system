@@ -1,0 +1,132 @@
+# 🚀 Resume Ranking System (ATS)
+
+An AI-powered **Resume Ranking System** that analyzes resumes and ranks candidates based on job description relevance.
+The system helps recruiters quickly identify the most suitable candidates using **Automated ATS scoring**.
+
+---
+
+## 📌 Problem Statement
+
+Recruiters face several challenges during the hiring process:
+
+* Thousands of resumes for a single job
+* Only **6 seconds average review time**
+* Traditional ATS systems rely on **keyword matching**
+* Qualified candidates are rejected due to missing exact keywords
+
+This project solves the problem by using **semantic analysis and intelligent ranking**.
+
+---
+
+## 💡 Solution
+
+The **Resume Ranking System** automatically analyzes resumes and compares them with the job description.
+
+The system performs:
+
+* Resume text extraction
+* Skill identification
+* Job description comparison
+* ATS score calculation
+* Candidate ranking
+
+This helps recruiters quickly select the best candidates.
+
+---
+
+## ✨ Features
+
+✔ Upload multiple resumes
+✔ Extract text from resume files
+✔ Compare resume with job description
+✔ Generate ATS score
+✔ Rank candidates based on relevance
+✔ Admin dashboard
+✔ Resume storage system
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+* React.js
+* HTML
+* CSS
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Database
+
+* MySQL
+
+### Tools
+
+* VS Code
+* Git
+* GitHub
+
+---
+
+## 🏗 System Workflow
+
+1. Upload Resume
+2. Extract Resume Text
+3. Compare with Job Description
+4. Calculate ATS Score
+5. Rank Candidates
+
+---
+
+## 🎬 Project Demo
+
+Watch the demo video here:
+https://drive.google.com/file/d/1IgFQ2gCimAEgPhgSyxZjaFGBGxtL7HL8/view?usp=drive_link
+
+---
+
+
+
+---
+
+## ⚙ Installation
+
+### 1️⃣ Clone Repository
+
+git clone https://github.com/athirau820-droid/resume-ranking-system.git
+
+### 2️⃣ Install Dependencies
+
+npm install
+
+### 3️⃣ Run Backend
+
+node server.js
+
+### 4️⃣ Run Frontend
+
+npm start
+
+---
+
+## 📊 Future Improvements
+
+* AI-powered resume understanding
+* Skill gap analysis
+* Interview recommendation system
+* Advanced candidate analytics
+
+---
+
+## 👩‍💻 Author
+
+Athira U
+
+---
+
+## ⭐ Support
+
+If you like this project, please **star the repository**.
